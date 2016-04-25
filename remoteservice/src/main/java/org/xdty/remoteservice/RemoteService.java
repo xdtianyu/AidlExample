@@ -17,7 +17,7 @@ public class RemoteService extends Service {
 
         @Override
         public void addUser(User user) throws RemoteException {
-            Log.d(TAG, "addUser: ");
+            Log.d(TAG, "addUser: " + user.name);
         }
     };
 

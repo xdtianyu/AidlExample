@@ -1,8 +1,8 @@
 // IRemoteService.aidl
-package org.xdty.aidlexample;
+package org.xdty.remoteservice;
 
 // Declare any non-default types here with import statements
-import org.xdty.aidlexample.User;
+import org.xdty.remoteservice.User;
 
 interface IRemoteService {
     /**

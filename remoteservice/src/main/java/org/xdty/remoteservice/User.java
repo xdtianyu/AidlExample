@@ -17,9 +17,14 @@ public class User implements Parcelable {
             return new User[size];
         }
     };
-    
-    private int uid;
-    private String name;
+
+    public int uid;
+    public String name;
+
+    public User(int uid, String name) {
+        this.uid = uid;
+        this.name = name;
+    }
 
     // 从 Parcel 中读取数据，顺序需要和写入保持一致
     protected User(Parcel in) {
